@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rishab - Frontend Developer & B.Tech Student Portfolio">
+    <meta name="keywords" content="frontend developer, web developer, portfolio, HTML, CSS, JavaScript">
+    <title>Rishab - Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="gradient-text">Rishab</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <!-- Theme Toggle & Mobile Menu -->
+            <div class="nav__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <span class="hero__greeting">Hello, I'm</span>
+                        <h1 class="hero__title">
+                            <span class="gradient-text">Rishab</span>
+                        </h1>
+                        <p class="hero__subtitle">Frontend Developer & B.Tech Student</p>
+                        <p class="hero__description">
+                            Passionate about creating modern, responsive web applications using HTML, CSS, and JavaScript.
+                            Currently pursuing B.Tech in Electrical and Electronics Engineering.
+                        </p>
+                        
+                        <div class="hero__buttons">
+                            <a href="#projects" class="btn btn--primary">
+                                <i class="fas fa-code"></i>
+                                View My Work
+                            </a>
+                            <a href="#contact" class="btn btn--outline">
+                                <i class="fas fa-envelope"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+                        <div class="hero__social">
+                            <a href="mailto:rishabpal2003@gmail.com" class="hero__social-link" target="_blank">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://github.com/rishab0001" class="hero__social-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="tel:+919305711185" class="hero__social-link">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                        <div class="hero__blob">
+                            <div class="hero__img-container">
+                                
+                                 <img src="img.png" alt="Profile Picture" class="hero__avatar">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__stats">
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">5+</span>
+                        <span class="hero__stat-label">Projects</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">6+</span>
+                        <span class="hero__stat-label">Skills</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number"></span>
+                        <span class="hero__stat-label"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <p class="section__subtitle">Get to know me better</p>
+                
+                <div class="about__container">
+                    <div class="about__content">
+                        <h3 class="about__title">Frontend Developer & Engineering Student</h3>
+                        <p class="about__description">
+                            I'm currently pursuing a Bachelor of Technology in Electrical and Electronics Engineering 
+                            at Maharaja Surajmal Institute of Technology. With a passion for web development, I create 
+                            modern, responsive websites using HTML, CSS, and JavaScript.
+                        </p>
+                        <p class="about__description">
+                            My journey in programming started with curiosity about how websites work, and now I'm 
+                            building interactive applications that solve real-world problems. I enjoy the challenge 
+                            of turning ideas into functional, beautiful web experiences.
+                        </p>
+                        <div class="about__info">
+                            <div class="about__info-item">
+                                <i class="fas fa-user"></i>
+                                <span>Rishab</span>
+                            </div>
+                            <div class="about__info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>B.Tech EEE Student</span>
+                            </div>
+                            <div class="about__info-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>2023 - 2027</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="about__education">
+                        <div class="education__card">
+                            <div class="education__icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="education__content">
+                                <h4 class="education__title">Bachelor of Technology</h4>
+                                <p class="education__subtitle">Electrical and Electronics Engineering</p>
+                                <p class="education__institution">Maharaja Surajmal Institute of Technology</p>
+                                <p class="education__duration">September 2023 – August 2027</p>
+                                <div class="education__grade">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <p class="section__subtitle">My technical expertise</p>
+                
+                <div class="skills__container">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Programming Languages</h3>
+                        <div class="skills__group">
+                            <div class="skill" data-skill="95">
+                                <div class="skill__header">
+                                    <div class="skill__info">
+                                        <i class="fab fa-html5 skill__icon"></i>
+                                        <span class="skill__name">HTML</span>
+                                    </div>
+                                    <span class="skill__percentage">95%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill" data-skill="90">
+                                <div class="skill__header">
+                                    <div class="skill__info">
+                                        <i class="fab fa-css3-alt skill__icon"></i>
+                                        <span class="skill__name">CSS</span>
+                                    </div>
+                                    <span class="skill__percentage">90%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill" data-skill="85">
+                                <div class="skill__header">
+                                    <div class="skill__info">
+                                        <i class="fab fa-js-square skill__icon"></i>
+                                        <span class="skill__name">JavaScript</span>
+                                    </div>
+                                    <span class="skill__percentage">85%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            <div class="skill" data-skill="75">
+                                <div class="skill__header">
+                                    <div class="skill__info">
+                                        <i class="fab fa-python skill__icon"></i>
+                                        <span class="skill__name">Python</span>
+                                    </div>
+                                    <span class="skill__percentage">75%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__content">
+                        <h3 class="skills__title">Other Skills</h3>
+                        <div class="skills__tags">
+                            <span class="skill__tag">IoT</span>
+                            <span class="skill__tag">Electronic Circuits</span>
+                            <span class="skill__tag">Communication</span>
+                            <span class="skill__tag">Problem-solving</span>
+                            <span class="skill__tag">Time Management</span>
+                            <span class="skill__tag">Leadership</span>
+                            <span class="skill__tag">Adaptability</span>
+                            <span class="skill__tag">Creativity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <p class="section__subtitle">Check out my recent work</p>
+                
+                <div class="projects__container">
+                    <div class="project__card">
+                        <div class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__buttons">
+                                    <a href="#" class="project__button" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/rishab0001" class="project__button" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project__icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Portfolio Website</h3>
+                            <p class="project__description">A repository showcasing my professional achievements and experiences</p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">HTML</span>
+                                <span class="tech__tag">CSS</span>
+                                <span class="tech__tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card">
+                        <div class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__buttons">
+                                    <a href="#" class="project__button" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/rishab0001" class="project__button" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project__icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Quiz Game</h3>
+                            <p class="project__description">A simple quiz game with multiple choices that provides correct and incorrect outputs</p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">HTML</span>
+                                <span class="tech__tag">CSS</span>
+                                <span class="tech__tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card">
+                        <div class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__buttons">
+                                    <a href="#" class="project__button" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/rishab0001" class="project__button" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project__icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">College Website Clone</h3>
+                            <p class="project__description">A clone website of a college that provides information about the institution</p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">HTML</span>
+                                <span class="tech__tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card">
+                        <div class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__buttons">
+                                    <a href="#" class="project__button" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/rishab0001" class="project__button" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project__icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Car Race Game</h3>
+                            <p class="project__description">A car race game controlled by right, left, up, down keys</p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">HTML</span>
+                                <span class="tech__tag">CSS</span>
+                                <span class="tech__tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card">
+                        <div class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__buttons">
+                                    <a href="#" class="project__button" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/rishab0001" class="project__button" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project__icon">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Weather Card</h3>
+                            <p class="project__description">A weather card project that displays weather reports for popular global locations</p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">HTML</span>
+                                <span class="tech__tag">CSS</span>
+                                <span class="tech__tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__buttons">
+                                    <a href="#" class="project__button" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/rishab0001" class="project__button" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project__icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Journal</h3>
+                            <p class="project__description">A semi finished project for journaling. currently working on it!</p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">HTML</span>
+                                <span class="tech__tag">CSS</span>
+                                <span class="tech__tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Contact Me</h2>
+                <p class="section__subtitle">Get in touch</p>
+                
+                <div class="contact__container">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Let's talk about your project</h3>
+                        <p class="contact__description">
+                            I'm always interested in new opportunities and collaborations. 
+                            Whether you have a project in mind or just want to say hello, 
+                            I'd love to hear from you!
+                        </p>
+                        
+                        <div class="contact__info">
+                            <div class="contact__info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <span>rishabpal2003@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact__info-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <span>+91 9305711185</span>
+                                </div>
+                            </div>
+                            <div class="contact__info-item">
+                                <i class="fab fa-github"></i>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <span>github.com/rishab0001</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                        
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 class="footer__title">Rishab</h3>
+                    <p class="footer__description">Frontend Developer & B.Tech Student</p>
+                </div>
+                
+                <div class="footer__social">
+                    <a href="mailto:rishabpal2003@gmail.com" class="footer__social-link" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/rishab0001" class="footer__social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="tel:+919305711185" class="footer__social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&copy; 2025 Rishab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scrolltop" id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>

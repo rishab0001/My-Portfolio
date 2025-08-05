@@ -132,13 +132,13 @@ The website uses CSS custom properties for easy theming:
 - **Functionality**: Modify `app.js` for interactive features
 - **Colors**: Update CSS custom properties for theme changes
 
-## 📱 Browser Support
+##  Browser Support
 
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+-  Chrome 90+
+-  Firefox 88+
+-  Safari 14+
+-  Edge 90+
+-  Mobile browsers (iOS Safari, Chrome Mobile)
 
 ##  Deployment
 

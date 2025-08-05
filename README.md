@@ -2,17 +2,17 @@
 
 A modern, responsive portfolio website built with HTML5, CSS3, and vanilla JavaScript featuring dark/light mode toggle, smooth animations, and mobile-first design.
 
-## 🌟 Features
+## Features
 
-- **🎨 Modern Design**: Clean, minimalist design with beautiful gradients and animations
-- **🌗 Dark/Light Mode**: Seamless theme switching with user preference persistence
-- **📱 Responsive**: Mobile-first approach ensuring perfect display on all devices
-- **⚡ Interactive**: Smooth scrolling, hover effects, and animated skill bars
-- **🔧 Form Validation**: Contact form with real-time validation feedback
-- **♿ Accessible**: Built with accessibility best practices and semantic HTML
-- **🚀 Performance**: Optimized loading with lazy loading and efficient animations
+- ** Modern Design**: Clean, minimalist design with beautiful gradients and animations
+- ** Dark/Light Mode**: Seamless theme switching with user preference persistence
+- ** Responsive**: Mobile-first approach ensuring perfect display on all devices
+- **  Interactive**: Smooth scrolling, hover effects, and animated skill bars
+- ** Form Validation**: Contact form with real-time validation feedback
+- ** Accessible**: Built with accessibility best practices and semantic HTML
+- ** Performance**: Optimized loading with lazy loading and efficient animations
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5** - Semantic markup structure
 - **CSS3** - Modern styling with custom properties and animations
@@ -20,7 +20,7 @@ A modern, responsive portfolio website built with HTML5, CSS3, and vanilla JavaS
 - **Font Awesome** - Beautiful icons throughout the site
 - **Google Fonts** - Inter font family for modern typography
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rishab-portfolio/
@@ -34,7 +34,7 @@ rishab-portfolio/
     └── settings.json  # Workspace settings
 ```
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ### Option 1: Automated Setup (Recommended)
 ```bash
@@ -55,26 +55,26 @@ code .
 # Right-click on index.html and select "Open with Live Server"
 ```
 
-## 🎯 Portfolio Sections
+##  Portfolio Sections
 
-### 🏠 Hero Section
+###  Hero Section
 - Animated introduction with gradient background
 - Call-to-action buttons
 - Social media links
 - Responsive design
 
-### 👨‍💻 About Section
+###  About Section
 - Professional introduction
 - Education details (B.Tech in EEE from MSIT)
 - Academic achievements (CGPA: 7.2)
 
-### 💼 Skills Section
+###  Skills Section
 - Programming languages: Java, HTML, CSS, JavaScript, Python, C
 - Frontend development expertise
 - Hardware skills: IoT, Electronic Circuits
 - Soft skills with animated progress indicators
 
-### 🚀 Projects Section
+###  Projects Section
 Interactive project cards featuring:
 - **Portfolio Website** - Professional showcase
 - **Quiz Game** - Interactive multiple-choice game
@@ -82,13 +82,13 @@ Interactive project cards featuring:
 - **Car Race Game** - Keyboard-controlled gaming experience
 - **Weather Card** - Global weather reporting application
 
-### 📞 Contact Section
+###  Contact Section
 - Contact form with validation
 - Email: rishabpal2003@gmail.com
 - Phone: 9305711185
 - GitHub: github.com/rishab0001
 
-## 🎨 Customization
+##  Customization
 
 ### Theme Colors
 The website uses CSS custom properties for easy theming:
@@ -113,7 +113,7 @@ The website uses CSS custom properties for easy theming:
 3. Add JavaScript functionality in `app.js` if needed
 4. Update navigation menu accordingly
 
-## 🔧 Development
+##  Development
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
@@ -140,7 +140,7 @@ The website uses CSS custom properties for easy theming:
 - ✅ Edge 90+
 - ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🚀 Deployment
+##  Deployment
 
 ### GitHub Pages
 1. Push code to GitHub repository
@@ -158,7 +158,7 @@ The website uses CSS custom properties for easy theming:
 2. Run `vercel` in project directory
 3. Follow deployment prompts
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 This portfolio demonstrates various web development concepts:
 - **CSS Grid & Flexbox** for layouts
@@ -169,7 +169,7 @@ This portfolio demonstrates various web development concepts:
 - **Local Storage** for theme persistence
 - **Intersection Observer** for scroll animations
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -177,7 +177,7 @@ This portfolio demonstrates various web development concepts:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see below for details:
 
@@ -205,23 +205,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Design inspiration from modern portfolio trends 2024-2025
 - Icons by [Font Awesome](https://fontawesome.com)
 - Fonts by [Google Fonts](https://fonts.google.com)
 - Color palette inspired by modern design systems
 
-## 📧 Contact
+##  Contact
 
 **Rishab**
-- 📧 Email: rishabpal2003@gmail.com
-- 📱 Phone: +91 9305711185
-- 💻 GitHub: [github.com/rishab0001](https://github.com/rishab0001)
-- 🌐 Portfolio: [Visit Live Site](https://your-portfolio-url.com)
+-  Email: rishabpal2003@gmail.com
+-  Phone: +91 9305711185
+-  GitHub: [github.com/rishab0001](https://github.com/rishab0001)
+-  Portfolio: [Visit Live Site](https://your-portfolio-url.com)
 
 ---
 
-⭐ **Star this repository if you found it helpful!** ⭐
+ **Star this repository if you found it helpful!** 
 
-Made with ❤️ by Rishab
+Made with ❤ by Rishab
